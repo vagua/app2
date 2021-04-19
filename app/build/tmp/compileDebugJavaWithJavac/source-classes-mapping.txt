@@ -1,0 +1,8 @@
+com/example/app2/databinding/FragmentWelcomeBinding.java
+ com.example.app2.databinding.FragmentWelcomeBinding
+com/example/app2/BuildConfig.java
+ com.example.app2.BuildConfig
+com/example/app2/DataBindingTriggerClass.java
+ com.example.app2.DataBindingTriggerClass
+com/example/app2/databinding/FragmentGameBinding.java
+ com.example.app2.databinding.FragmentGameBinding

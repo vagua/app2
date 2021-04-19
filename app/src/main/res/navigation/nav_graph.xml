@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcome">
+
+    <fragment
+        android:id="@+id/aboutme"
+        android:name="com.example.app2.aboutme"
+        android:label="aboutme_fragment"
+        tools:layout="@layout/aboutme_fragment" />
+    <fragment
+        android:id="@+id/game"
+        android:name="com.example.app2.game"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_game_to_gamewin"
+            app:destination="@id/gamewin" />
+        <action
+            android:id="@+id/action_game_to_gamelose"
+            app:destination="@id/gamelose" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamewin"
+        android:name="com.example.app2.gamewin"
+        android:label="fragment_gamewin"
+        tools:layout="@layout/fragment_gamewin" >
+        <action
+            android:id="@+id/action_gamewin_to_game"
+            app:destination="@id/game" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamelose"
+        android:name="com.example.app2.gamelose"
+        android:label="fragment_gamelose"
+        tools:layout="@layout/fragment_gamelose" >
+        <action
+            android:id="@+id/action_gamelose_to_game"
+            app:destination="@id/game" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcome"
+        android:name="com.example.app2.welcome"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcome_to_game"
+            app:destination="@id/game" />
+    </fragment>
+</navigation>

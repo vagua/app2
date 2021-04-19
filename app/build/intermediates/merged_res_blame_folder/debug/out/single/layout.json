@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ndhu_csie/Desktop/app2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_game.xml",
+        "source": "/Users/ndhu_csie/Desktop/app2/app/src/main/res/layout/fragment_game.xml"
+    },
+    {
+        "merged": "/Users/ndhu_csie/Desktop/app2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_welcome.xml",
+        "source": "/Users/ndhu_csie/Desktop/app2/app/src/main/res/layout/fragment_welcome.xml"
+    }
+]
