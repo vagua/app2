@@ -6,10 +6,17 @@
     app:startDestination="@id/welcome">
 
     <fragment
-        android:id="@+id/aboutme"
-        android:name="com.example.app2.aboutme"
-        android:label="aboutme_fragment"
-        tools:layout="@layout/aboutme_fragment" />
+        android:id="@+id/welcome"
+        android:name="com.example.app2.welcome"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcome_to_game"
+            app:destination="@id/game" />
+    </fragment>
+
+
+
     <fragment
         android:id="@+id/game"
         android:name="com.example.app2.game"
@@ -22,6 +29,7 @@
             android:id="@+id/action_game_to_gamelose"
             app:destination="@id/gamelose" />
     </fragment>
+
     <fragment
         android:id="@+id/gamewin"
         android:name="com.example.app2.gamewin"
@@ -31,6 +39,7 @@
             android:id="@+id/action_gamewin_to_game"
             app:destination="@id/game" />
     </fragment>
+
     <fragment
         android:id="@+id/gamelose"
         android:name="com.example.app2.gamelose"
@@ -40,13 +49,5 @@
             android:id="@+id/action_gamelose_to_game"
             app:destination="@id/game" />
     </fragment>
-    <fragment
-        android:id="@+id/welcome"
-        android:name="com.example.app2.welcome"
-        android:label="fragment_welcome"
-        tools:layout="@layout/fragment_welcome" >
-        <action
-            android:id="@+id/action_welcome_to_game"
-            app:destination="@id/game" />
-    </fragment>
+
 </navigation>

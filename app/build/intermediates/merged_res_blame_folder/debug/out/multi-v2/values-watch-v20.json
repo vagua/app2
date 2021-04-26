@@ -4,7 +4,7 @@
             "outputFile": "/Users/ndhu_csie/Desktop/app2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/ndhu_csie/.gradle/caches/transforms-2/files-2.1/4102c377b7a8a929cfb8c6bcf858d486/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/ndhu_csie/.gradle/caches/transforms-2/files-2.1/79c7ddbcbe7e552bb1f5f0d85fe3699c/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

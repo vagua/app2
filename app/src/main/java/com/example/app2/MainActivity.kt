@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-    override fun onSupportNavigateUp() =
-        findNavController(this, R.id.my_nav_host_fragment).navigateUp()
+    override fun onSupportNavigateUp(): Boolean {
+        return findNavController(this, R.id.my_nav_host_fragment).navigateUp()
+    }
 }

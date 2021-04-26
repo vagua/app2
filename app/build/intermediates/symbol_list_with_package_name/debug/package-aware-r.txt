@@ -1807,7 +1807,9 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btn
 id btn_guess
+id button
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2135,7 +2137,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvcon
+id tvcount
 id tvhint
+id tvlose
 id tvwelcome
 id unchecked
 id uniform

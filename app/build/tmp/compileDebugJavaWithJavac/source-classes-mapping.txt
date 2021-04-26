@@ -1,3 +1,7 @@
+com/example/app2/databinding/FragmentGamewinBinding.java
+ com.example.app2.databinding.FragmentGamewinBinding
+com/example/app2/databinding/FragmentGameloseBinding.java
+ com.example.app2.databinding.FragmentGameloseBinding
 com/example/app2/databinding/FragmentWelcomeBinding.java
  com.example.app2.databinding.FragmentWelcomeBinding
 com/example/app2/BuildConfig.java
